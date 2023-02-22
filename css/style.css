@@ -15,7 +15,7 @@ body {
 
 /* MAIN  */
 main { 
-    height:calc(100vh - 100px); 
+    height:calc(100vh - 80px); 
     width: 100%; 
     display: flex;
     /* debug  */
@@ -28,36 +28,48 @@ main {
 }
 
 .sx-utility { 
-    width: 100px; 
+    width: 150px; 
     height: 100%; 
     background-color: lightgreen; 
 } 
  
 .pro { 
     height: 80px; 
-    width: calc(100vw - 100px);
+    width: calc(100vw - 80px);
     /* debug   */
     background-color: lightcoral;
 } 
 
 .d-flex { 
     display: flex; 
-    justify-content: space-around; 
     flex-wrap: wrap; 
 } 
- 
+
+.play {
+    gap: 10px;
+    margin-left: 10px;
+}
+
 .card { 
-    height: 150px; 
-    width: 22%; 
-    margin-top: 100px;
+    height: 120px; 
+    width: calc(100% / 6 - 10px);
+    margin-top: 30px;
+    
     /* debug */
     background-color: green;  
 } 
  
+.recently-played {
+    margin-top: 20px;
+}
+
+.recently-played:last-child {
+    margin-bottom: 10px;
+}
 /* FOOTER  */
 .audio-control { 
     width: 100%; 
-    height: 100px; 
+    height: 80px; 
     /* debug  */
     background-color: blue; 
 } 
