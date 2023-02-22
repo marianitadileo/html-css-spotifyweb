@@ -1,0 +1,64 @@
+/* RESET  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    /* debug */
+    height: 100%; 
+    background-color: lightyellow; 
+} 
+ 
+
+/* MAIN  */
+main { 
+    height:calc(100vh - 100px); 
+    width: 100%; 
+    display: flex;
+    /* debug  */
+    background-color: aqua; 
+} 
+ 
+.main-content { 
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+}
+
+.sx-utility { 
+    width: 100px; 
+    height: 100%; 
+    background-color: lightgreen; 
+} 
+ 
+.pro { 
+    height: 80px; 
+    width: calc(100vw - 100px);
+    /* debug   */
+    background-color: lightcoral;
+} 
+
+.d-flex { 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+} 
+ 
+.card { 
+    height: 150px; 
+    width: 22%; 
+    margin-top: 100px;
+    /* debug */
+    background-color: green;  
+} 
+ 
+/* FOOTER  */
+.audio-control { 
+    width: 100%; 
+    height: 100px; 
+    /* debug  */
+    background-color: blue; 
+} 
+ 
