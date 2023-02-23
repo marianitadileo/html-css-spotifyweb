@@ -27,22 +27,26 @@ a {
 /* MAIN  */
 main { 
     height:calc(100vh - 80px); 
-    width: 100%; 
     display: flex;
-    
-    /* debug  */
-    background-color: aqua; 
+    color: white;
+    background-color: #141922; 
 } 
 
+.upgrade {
+    width: 20%;
+    border-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: blue;
+}
 /* SIDEBAR  */
 .sx-utility { 
     width: 170px; 
-    height: 100%; 
+    /* height: 100%;  */
     text-align: left;
     padding: 10px;
     color: #A3A3A3;
-    /* debug  */
-    background-color: lightgreen; 
+    background-color: black; 
 } 
 
 .sx-utility h3 {
@@ -96,6 +100,11 @@ i {
 .main-content { 
     overflow-y: scroll; 
     overflow-x: hidden; 
+    width: calc(100% - 170px);
+}
+
+.main-content img {
+    width: 100%;
 }
 
 .pro { 
@@ -117,9 +126,7 @@ i {
 .card { 
     height: 120px; 
     width: calc(100% / 6 - 10px);
-    margin-top: 30px;
-    /* debug */
-    background-color: green;  
+    margin-top: 30px; 
 } 
  
 .recently-played {
@@ -131,7 +138,9 @@ i {
     margin-bottom: 10px;
 }
 
-
+.radius {
+    border-radius: 50%;
+}
 
 /* FOOTER  */
 .audio-control { 
