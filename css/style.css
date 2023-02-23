@@ -15,24 +15,49 @@ body {
 
 /* MAIN  */
 main { 
-    height:calc(100vh - 160px); 
+    height:calc(100vh - 80px); 
     width: 100%; 
     display: flex;
+    
     /* debug  */
     background-color: aqua; 
 } 
- 
+
+/* SIDEBAR  */
+.sx-utility { 
+    width: 150px; 
+    height: 100%; 
+    text-align: left;
+    padding: 10px;
+    /* debug  */
+    background-color: lightgreen; 
+} 
+
+.logo {
+    width: 90%;
+  
+}
+
+.small-logo {
+    display: none;
+}
+
+.nav-list ul li{
+    margin-bottom: 10px;
+    text-decoration: none;
+   
+}
+
+.icon-list {
+    height: 30px;
+    vertical-align: middle;
+}
+/* CONTENT  */
 .main-content { 
     overflow-y: scroll; 
     overflow-x: hidden; 
 }
 
-.sx-utility { 
-    width: 150px; 
-    height: 100%; 
-    background-color: lightgreen; 
-} 
- 
 .pro { 
     height: 80px; 
     width: calc(100vw - 150px);
@@ -47,7 +72,6 @@ main {
 
 .play {
     gap: 10px;
-    margin-left: 10px;
 }
 
 .card { 
@@ -60,11 +84,14 @@ main {
  
 .recently-played {
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .recently-played:last-child {
     margin-bottom: 10px;
 }
+
+
 
 /* FOOTER  */
 .audio-control { 
