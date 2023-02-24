@@ -26,7 +26,7 @@ a {
 
 /* MAIN  */
 main { 
-    height:calc(100vh - 80px); 
+    height:calc(100vh - 100px); 
     display: flex;
     color: white;
     background-color: #141922; 
@@ -39,6 +39,17 @@ main {
     border-radius: 50%;
     background-color: blue;
 }
+
+/* NAV-MAIN  */
+.nav-list-main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7D7F84;
+}
+
 /* SIDEBAR  */
 .sx-utility { 
     width: 170px; 
@@ -121,6 +132,8 @@ i {
 
 .play {
     gap: 10px;
+    min-height: 250px;
+  
 }
 
 .card { 
@@ -145,8 +158,26 @@ i {
 /* FOOTER  */
 .audio-control { 
     width: 100%; 
-    height: 80px; 
-    /* debug  */
-    background-color: blue; 
+    height: 100px;
+    padding: 30px 20px; 
+    background-color: #282828;
+  
+   
 } 
- 
+
+
+.footer-left,
+.play-center {
+    width: 200px
+}
+
+
+.footer-left {
+    display: flex;
+    gap: 20px;
+    background-color: chartreuse;
+}
+
+.footer-left img {
+    width: 50%;
+}
