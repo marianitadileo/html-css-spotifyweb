@@ -20,50 +20,57 @@
 
         <!-- ASIDE  -->
         <aside class="sx-utility">
-            <div class="logo">
-                <a  class="big-logo" href=""><img src="img/logo.svg" alt="logo spotify"></a>
-                <a class="small-logo" href=""><img src="img/logo-small.svg" alt="logo"></a>
-            </div>
-            <div class="text-aside">
-                <div class="nav-list">
-                    <ul>
-                        <li>
-                            <a href=""><img class="icon-list" src="img/home.svg" alt="home"></a>
-                            <span>Home</span>
-                        </li>
-                        <li>
-                            <a href=""><img class="icon-list" src="img/search.svg" alt="cerca"></a>
-                            <span>Cerca</span>
-                        </li>
-                        <li>
-                            <a href=""><img class="icon-list" src="img/libreria.svg" alt="libreria"></a>
-                            <span>La tua liberia</span>
-                        </li>
-                    </ul>
-                        
+            <div>
+                <div class="logo padding-aside">
+                    <a  class="big-logo" href=""><img src="img/logo.svg" alt="logo spotify"></a>
+                    <a class="small-logo" href=""><img src="img/logo-small.svg" alt="logo"></a>
                 </div>
-                <div class="playlist">
-                    <h3>PLAYLIST</h3>
-                    <a href=""><i class="fa-regular fa-square-plus"></i> Crea playlist</a>
-
-                    <div class="nome-playlist">
+                <div class="text-aside">
+                    <div class="nav-list">
                         <ul>
-                            <li><a href="">Nome Playlist</a></li>
-                            <li><a href="">Nome Playlist</a></li>
-                            <li><a href="">Nome Playlist</a></li>
-                            <li><a href="">Nome Playlist</a></li>
-                            <li><a href="">Nome Playlist</a></li>
-                            <li><a href="">Nome Playlist</a></li>
-                            <li><a href="">Nome Playlist</a></li>
-                              
+                            <li class="padding-aside home-border">
+                                <a href=""><img class="icon-list" src="img/home.svg" alt="home"></a>
+                                <span>Home</span>
+                            </li>
+                            <li class="padding-aside">
+                                <a href=""><img class="icon-list" src="img/search.svg" alt="cerca"></a>
+                                <span>Cerca</span>
+                            </li>
+                            <li class="padding-aside">
+                                <a href=""><img class="icon-list" src="img/libreria.svg" alt="libreria"></a>
+                                <span>La tua liberia</span>
+                            </li>
                         </ul>
+                            
+                    </div>
+                    <div class="playlist padding-aside">
+                        <h3>PLAYLIST</h3>
+                        <div>
+                            <a href="">
+                                <i class="fa-regular fa-square-plus"></i>
+                                <span class="text-playlist">Crea playlist</span>
+                            </a>
+                        </div>
+                        
+
+                        <div class="nome-playlist">
+                            <ul>
+                                <li><a href="">Nome Playlist</a></li>
+                                <li><a href="">Nome Playlist</a></li>
+                                <li><a href="">Nome Playlist</a></li>
+                                <li><a href="">Nome Playlist</a></li>
+                                <li><a href="">Nome Playlist</a></li>
+                                <li><a href="">Nome Playlist</a></li>
+                                <li><a href="">Nome Playlist</a></li>
+                                
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="aside-bottom">
+            <div class="aside-bottom padding-aside">
                 <div class="app">
-                    <a href=""><i class="fa-solid fa-circle-arrow-down"></i></a>
+                    <a href=""><i class="fa-regular fa-circle-down"></i></a>
                     <a href=""><span>Installa app</span></a>
                 </div>
                 <div class="hr-sidebar"><hr></div>
@@ -86,7 +93,7 @@
             <div class="nav">
                 <nav>
                     <ul class="nav-list-main">
-                        <li>IN EVIDENZA</li>
+                        <li>IN E<span class="line">VIDE</span>NZA</li>
                         <li>PODCAST</li>
                         <li>CLASSIFICHE</li>
                         <li>GENERI E MOOD</li>
@@ -194,7 +201,7 @@
         <div class="footer-left">
 
             <img src="img/sinister.jpeg" alt="sinister album">
-            
+
             <div class="foot-text">
                 <h4>Sinister</h4>
                 <p>Brano Nome</p>
@@ -207,12 +214,9 @@
 
         </div>
 
-
-
-
         <div class="play-center">
-            <div class="actions-music d-flex">
-                <ul>
+            <div>
+                <ul class="d-flex list-foot actions-music">
                     <li><i class="fa-solid fa-shuffle"></i></li>
                     <li><i class="fa-solid fa-backward-step"></i></li>
                     <li><i class="fa-regular fa-circle-play"></i></li>
@@ -222,22 +226,29 @@
             </div>
             <div class="time-music">
                 <div class="time">0:25</div>
-                <div class="bar-music"><hr></div>
-                <div class="time-music">4:35</div>
+                <div class="bar-music">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="time">4:35</div>
             </div>
 
         </div>
 
         <div class="footer-right">
-            <ul class="d-flex">
+            <ul class="d-flex list-foot">
                 <li><i class="fa-solid fa-list-ul"></i></li>
                 <li><i class="fa-solid fa-desktop"></i></li>
                 <li><i class="fa-solid fa-volume-high"></i></li>
+                <li>
+                    <div class="bar-music">
+                        <div class="progress-bar"></div>
+                    </div>
+                </li>
+                
             </ul>
             <div class="bar-audio"></div>
 
         </div>
-
 
     </footer>
     <!-- /FOOTER  -->

@@ -4,7 +4,6 @@
         width: calc(100% / 4 - 10px);
     }
         
-    }
     
     
 @media screen and (max-width:700px) {
@@ -19,9 +18,33 @@
 
 
 @media screen and (max-width:600px) {
+
+    .card {
+        height: 150px; 
+        width: calc(100% / 2 - 10px);
+    }
+
+
+    .main-content {
+        width: 100%;
+    }
+    
+    .recently-played {
+        margin-top: 10px;
+    }
+}
+
+    
     .sx-utility {
         width: 40px;  
 
     }
         
+    .nav-list:not(.icon-list) {
+        display: none;
+    }
+    
+    .big-logo {
+        display: none;
+    }
     }
