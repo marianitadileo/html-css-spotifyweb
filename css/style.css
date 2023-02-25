@@ -98,7 +98,8 @@ main {
 }
 
 .home-border {
-    border-left: 3px solid rgb(15, 235, 15);
+    border-left: 3px solid chartreuse;
+    color: white;
 }
 
 .small-logo {
@@ -120,16 +121,17 @@ i {
 
 .app {
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 .app i {
-    font-size: 16px;
+    font-size: 14px;
     padding-right: 5px;
     padding-left: 5px;
 }
 
 .text-playlist {
-  vertical-align: super;
+    vertical-align: super;
 }
 
 .icon-list {
@@ -184,7 +186,12 @@ i {
     margin-top: 30px;
     margin-bottom: 10px;
 } 
- 
+
+.card p {
+    color: gray;
+    font-size: 13px;
+}
+
 .text {
     margin-top: 5px;
     text-align: center;
@@ -199,6 +206,10 @@ i {
     padding-bottom: 10px;
 }
 
+.ascolti {
+    color: grey;
+    font-size: 12px;
+}
 .recently-played:last-child {
     margin-bottom: 15px;
 }
@@ -224,14 +235,9 @@ footer i {
 }
 
 .footer-left {
-    width: 300px; 
+    width: 280px; 
     display: flex;
-    justify-content: space-between;  
-}
-
-.icons-foot {
-   padding: 10px;
-   color: lightgrey;
+    justify-content: space-between;   
 }
 
 .play-center {
@@ -244,8 +250,14 @@ footer i {
     margin-bottom: 15px;
 }
 
-.foot-text p{
+.foot-text h5 {
     color: lightgray;
+    font-size: 12px;
+}
+
+.footer-left i {
+    color: lightgray;
+    padding: 10px 0 0 10px;
 }
 
 .time-music {
@@ -264,12 +276,12 @@ footer i {
 
 .progress-bar {
     border: 3px solid lightgray;
-    width: 30%;
+    width: 28%;
     border-radius: 3px;
 }
 
 .footer-right {
-    width: 300px; 
+    width:280px; 
     display: flex;
     justify-content: space-between;
 }
