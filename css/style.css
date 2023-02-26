@@ -300,11 +300,18 @@ footer i {
     border: 3px solid lightgray;
     width: 28%;
     border-radius: 3px;
+    position: relative;
 }
 
-.circle {
+.dot-bar {
+    width: 10px;
+    height: 100%;
     border-radius: 50%;
-    color: white;
+    padding: 8px;
+    background-color: white;
+    position: absolute;
+    right: -2px;
+    top: -8px;
     display: none;
 }
 
@@ -316,8 +323,7 @@ footer i {
 
 .list-foot {
     gap: 15px;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .footer-right ul li .bar-music{
@@ -329,7 +335,6 @@ footer i {
 }
 
 /* HOVER */
-
 .upgrade:hover{
     transform: scale(1.1);
 }
@@ -372,7 +377,10 @@ footer i {
     border: 3px solid greenyellow;
 }
 
-.hover-card {
-  
+.hover-card:hover {
+    display: inline-block;
+}
+
+.dot-bar:hover {
     display: inline-block;
 }
