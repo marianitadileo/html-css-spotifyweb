@@ -26,6 +26,14 @@ a {
     flex-wrap: wrap; 
 } 
 
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 
 /* MAIN  */
 main { 
@@ -184,7 +192,18 @@ i {
     width: calc(100% / 6 - 10px);
     margin-top: 30px;
     margin-bottom: 10px;
+    position: relative;
 } 
+
+.hover-card {
+    display: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+   
+   
+}
 
 .card p {
     color: gray;
@@ -230,13 +249,12 @@ i {
 } 
 
 footer i {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer-left {
-    width: 300px; 
-    display: flex;
-    justify-content: space-between;   
+    width: 250px; 
+    display: flex;   
 }
 
 .play-center {
@@ -254,9 +272,14 @@ footer i {
     font-size: 12px;
 }
 
-.footer-left i {
+.footer-left .foot-text {
     color: lightgray;
-    padding: 10px 0 0 20px;
+    padding: 5px 0 0 10px;
+}
+
+.footer-left span i {
+    padding: 10px 0 0 10px;
+    color: lightgrey;
 }
 
 .time-music {
@@ -268,8 +291,8 @@ footer i {
 }
 
 .bar-music {
-    width: 50%;
-    background-color: black;
+    width: 70%;
+    background-color: grey;
     border-radius: 3px;
 }
 
@@ -279,17 +302,77 @@ footer i {
     border-radius: 3px;
 }
 
+.circle {
+    border-radius: 50%;
+    color: white;
+    display: none;
+}
+
 .footer-right {
-    width: 300px; 
+    width: 200px; 
     display: flex;
     justify-content: space-between;
 }
 
 .list-foot {
-    gap: 20px;
+    gap: 15px;
     align-items: center;
+    
 }
 
 .footer-right ul li .bar-music{
     width: 130px;
+}
+
+.play-center {
+    margin-right: 15px;
+}
+
+/* HOVER */
+
+.upgrade:hover{
+    transform: scale(1.1);
+}
+
+.nav-list-main h4:hover {
+    color: white;
+}
+
+.nome-playlist ul li a:hover {
+    color: white;
+}
+
+.nav-list ul li:hover {
+    color: white;
+}
+
+.a-hover:hover {
+    color: white;
+}
+
+.app a span:hover {
+    color: white;
+}
+
+.foot-text h5:hover {
+    color: white;
+    text-decoration:underline;
+}
+
+.fl-icons :hover{
+    color: white;
+}
+
+.fa-circle-play:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.progress-bar:hover {
+    border: 3px solid greenyellow;
+}
+
+.hover-card {
+  
+    display: inline-block;
 }

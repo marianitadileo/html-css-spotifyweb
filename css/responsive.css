@@ -1,8 +1,7 @@
 @media screen and (max-width:1100px) {
     .card {
         height: 200px; 
-        width: calc(100% / 4 - 10px);
-        
+        width: calc(100% / 4 - 10px); 
     }
 
     .responsive .card {
@@ -11,6 +10,25 @@
 
     .recently-played .last {
         margin-top: 60px;
+    }
+
+    .bar-music {
+        width: 200px;
+    }
+
+    .fl-icons i{
+        display: block;
+        padding: 0px;
+    }
+    .footer-left {
+        width: 165px;
+    }
+    .list-foot {
+        gap: 5px;
+    }
+
+    .audio-control {
+        padding: 30px 8px;
     }
 }
 
@@ -28,6 +46,9 @@
         margin-top: 125px;
     }
 
+    .bar-music {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -52,6 +73,7 @@
     .pro {
         width: calc(100% - 50px);
     }
+    
     .text-playlist,
     .playlist,
     .nome-playlist,
@@ -60,9 +82,12 @@
         display: none;
     }
     
-
     .big-logo {
         display: none;
+    }
+
+    .home-border {
+        border: none;
     }
 
     .sx-utility {
@@ -74,7 +99,25 @@
         width: 80%;
         text-align: center;
     }
+
+    .actions-music {
+        gap: 10px;
+    }
+
+    .bar-music {
+        min-width: 125px;
+    }
+
+    .play-center {
+        width: 45%;
+    }
+
+    .list-foot li i {
+        font-size: 16px;
+    }
 }
+
+
 
     
     
